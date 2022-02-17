@@ -14,15 +14,9 @@ Pod::Spec.new do |s|
     s.social_media_url = "https://twitter.com/mparticle"
     s.static_framework = true
 
-    s.ios.deployment_target = "9.0"
+    s.ios.deployment_target = "10.0"
     s.ios.source_files      = 'mParticle-Taplytics/*.{h,m,mm}'
     s.ios.dependency 'mParticle-Apple-SDK/mParticle', '~> 8.0'
     s.ios.dependency 'Taplytics', '~> 4.0'
 
-    s.ios.pod_target_xcconfig = {
-        'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-    }
-    s.ios.user_target_xcconfig = {
-        'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-    }
 end

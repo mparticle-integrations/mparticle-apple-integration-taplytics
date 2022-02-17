@@ -6,12 +6,6 @@
 #import "mParticle.h"
 #endif
 
-#if defined(__has_include) && __has_include(<Taplytics/Taplytics.h>)
-#import <Taplytics/Taplytics.h>
-#else
-#import "Taplytics.h"
-#endif
-
 @interface MPKitTaplytics : NSObject <MPKitProtocol>
 
 @property (nonatomic, strong, nonnull) NSDictionary *configuration;

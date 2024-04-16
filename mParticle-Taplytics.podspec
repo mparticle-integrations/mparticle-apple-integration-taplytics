@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "mParticle-Taplytics"
-    s.version          = "8.0.6"
+    s.version          = "8.1.0"
     s.summary          = "Taplytics integration for mParticle"
 
     s.description      = <<-DESC

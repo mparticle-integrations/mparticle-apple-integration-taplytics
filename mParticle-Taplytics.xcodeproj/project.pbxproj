@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5333B57A2BCDC54100A0367B /* mParticle_Taplytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5333B5712BCDC54100A0367B /* mParticle_Taplytics.framework */; };
+		5333B57F2BCDC54100A0367B /* mParticle_TaplyticsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5333B57E2BCDC54100A0367B /* mParticle_TaplyticsTests.m */; };
+		5333B5802BCDC54100A0367B /* mParticle_Taplytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 5333B5742BCDC54100A0367B /* mParticle_Taplytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5333B58B2BCDC59500A0367B /* MPKitTaplytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 5333B5892BCDC59500A0367B /* MPKitTaplytics.m */; };
+		5333B58C2BCDC59500A0367B /* MPKitTaplytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 5333B58A2BCDC59500A0367B /* MPKitTaplytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5333B58E2BCDC5F900A0367B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 5333B58D2BCDC5F900A0367B /* PrivacyInfo.xcprivacy */; };
+		5333B5912BCDC63900A0367B /* mParticle-Apple-SDK in Frameworks */ = {isa = PBXBuildFile; productRef = 5333B5902BCDC63900A0367B /* mParticle-Apple-SDK */; };
+		5333B5942BCDC80100A0367B /* Taplytics in Frameworks */ = {isa = PBXBuildFile; productRef = 5333B5932BCDC80100A0367B /* Taplytics */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5333B57B2BCDC54100A0367B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5333B5682BCDC54100A0367B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5333B5702BCDC54100A0367B;
+			remoteInfo = "mParticle-Taplytics";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5333B5712BCDC54100A0367B /* mParticle_Taplytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mParticle_Taplytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5333B5742BCDC54100A0367B /* mParticle_Taplytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mParticle_Taplytics.h; sourceTree = "<group>"; };
+		5333B5792BCDC54100A0367B /* mParticle-TaplyticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mParticle-TaplyticsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5333B57E2BCDC54100A0367B /* mParticle_TaplyticsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mParticle_TaplyticsTests.m; sourceTree = "<group>"; };
+		5333B5892BCDC59500A0367B /* MPKitTaplytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPKitTaplytics.m; sourceTree = "<group>"; };
+		5333B58A2BCDC59500A0367B /* MPKitTaplytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPKitTaplytics.h; sourceTree = "<group>"; };
+		5333B58D2BCDC5F900A0367B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5333B56E2BCDC54100A0367B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5333B5942BCDC80100A0367B /* Taplytics in Frameworks */,
+				5333B5912BCDC63900A0367B /* mParticle-Apple-SDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5333B5762BCDC54100A0367B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5333B57A2BCDC54100A0367B /* mParticle_Taplytics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5333B5672BCDC54100A0367B = {
+			isa = PBXGroup;
+			children = (
+				5333B5732BCDC54100A0367B /* mParticle-Taplytics */,
+				5333B57D2BCDC54100A0367B /* mParticle-TaplyticsTests */,
+				5333B5722BCDC54100A0367B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5333B5722BCDC54100A0367B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5333B5712BCDC54100A0367B /* mParticle_Taplytics.framework */,
+				5333B5792BCDC54100A0367B /* mParticle-TaplyticsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5333B5732BCDC54100A0367B /* mParticle-Taplytics */ = {
+			isa = PBXGroup;
+			children = (
+				5333B5742BCDC54100A0367B /* mParticle_Taplytics.h */,
+				5333B58A2BCDC59500A0367B /* MPKitTaplytics.h */,
+				5333B5892BCDC59500A0367B /* MPKitTaplytics.m */,
+				5333B58D2BCDC5F900A0367B /* PrivacyInfo.xcprivacy */,
+			);
+			path = "mParticle-Taplytics";
+			sourceTree = "<group>";
+		};
+		5333B57D2BCDC54100A0367B /* mParticle-TaplyticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5333B57E2BCDC54100A0367B /* mParticle_TaplyticsTests.m */,
+			);
+			path = "mParticle-TaplyticsTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5333B56C2BCDC54100A0367B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5333B58C2BCDC59500A0367B /* MPKitTaplytics.h in Headers */,
+				5333B5802BCDC54100A0367B /* mParticle_Taplytics.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5333B5702BCDC54100A0367B /* mParticle-Taplytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5333B5832BCDC54100A0367B /* Build configuration list for PBXNativeTarget "mParticle-Taplytics" */;
+			buildPhases = (
+				5333B56C2BCDC54100A0367B /* Headers */,
+				5333B56D2BCDC54100A0367B /* Sources */,
+				5333B56E2BCDC54100A0367B /* Frameworks */,
+				5333B56F2BCDC54100A0367B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mParticle-Taplytics";
+			packageProductDependencies = (
+				5333B5902BCDC63900A0367B /* mParticle-Apple-SDK */,
+				5333B5932BCDC80100A0367B /* Taplytics */,
+			);
+			productName = "mParticle-Taplytics";
+			productReference = 5333B5712BCDC54100A0367B /* mParticle_Taplytics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5333B5782BCDC54100A0367B /* mParticle-TaplyticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5333B5862BCDC54100A0367B /* Build configuration list for PBXNativeTarget "mParticle-TaplyticsTests" */;
+			buildPhases = (
+				5333B5752BCDC54100A0367B /* Sources */,
+				5333B5762BCDC54100A0367B /* Frameworks */,
+				5333B5772BCDC54100A0367B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5333B57C2BCDC54100A0367B /* PBXTargetDependency */,
+			);
+			name = "mParticle-TaplyticsTests";
+			productName = "mParticle-TaplyticsTests";
+			productReference = 5333B5792BCDC54100A0367B /* mParticle-TaplyticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5333B5682BCDC54100A0367B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					5333B5702BCDC54100A0367B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					5333B5782BCDC54100A0367B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 5333B56B2BCDC54100A0367B /* Build configuration list for PBXProject "mParticle-Taplytics" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5333B5672BCDC54100A0367B;
+			packageReferences = (
+				5333B58F2BCDC63900A0367B /* XCRemoteSwiftPackageReference "mparticle-apple-sdk" */,
+				5333B5922BCDC80100A0367B /* XCRemoteSwiftPackageReference "taplytics-ios-sdk" */,
+			);
+			productRefGroup = 5333B5722BCDC54100A0367B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5333B5702BCDC54100A0367B /* mParticle-Taplytics */,
+				5333B5782BCDC54100A0367B /* mParticle-TaplyticsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5333B56F2BCDC54100A0367B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5333B58E2BCDC5F900A0367B /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5333B5772BCDC54100A0367B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5333B56D2BCDC54100A0367B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5333B58B2BCDC59500A0367B /* MPKitTaplytics.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5333B5752BCDC54100A0367B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5333B57F2BCDC54100A0367B /* mParticle_TaplyticsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5333B57C2BCDC54100A0367B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5333B5702BCDC54100A0367B /* mParticle-Taplytics */;
+			targetProxy = 5333B57B2BCDC54100A0367B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5333B5812BCDC54100A0367B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5333B5822BCDC54100A0367B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5333B5842BCDC54100A0367B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mparticle.mParticle-Taplytics";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5333B5852BCDC54100A0367B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mparticle.mParticle-Taplytics";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5333B5872BCDC54100A0367B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mparticle.mParticle-TaplyticsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5333B5882BCDC54100A0367B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mparticle.mParticle-TaplyticsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5333B56B2BCDC54100A0367B /* Build configuration list for PBXProject "mParticle-Taplytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5333B5812BCDC54100A0367B /* Debug */,
+				5333B5822BCDC54100A0367B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5333B5832BCDC54100A0367B /* Build configuration list for PBXNativeTarget "mParticle-Taplytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5333B5842BCDC54100A0367B /* Debug */,
+				5333B5852BCDC54100A0367B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5333B5862BCDC54100A0367B /* Build configuration list for PBXNativeTarget "mParticle-TaplyticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5333B5872BCDC54100A0367B /* Debug */,
+				5333B5882BCDC54100A0367B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5333B58F2BCDC63900A0367B /* XCRemoteSwiftPackageReference "mparticle-apple-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mParticle/mparticle-apple-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.19.0;
+			};
+		};
+		5333B5922BCDC80100A0367B /* XCRemoteSwiftPackageReference "taplytics-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/taplytics/taplytics-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5333B5902BCDC63900A0367B /* mParticle-Apple-SDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5333B58F2BCDC63900A0367B /* XCRemoteSwiftPackageReference "mparticle-apple-sdk" */;
+			productName = "mParticle-Apple-SDK";
+		};
+		5333B5932BCDC80100A0367B /* Taplytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5333B5922BCDC80100A0367B /* XCRemoteSwiftPackageReference "taplytics-ios-sdk" */;
+			productName = Taplytics;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5333B5682BCDC54100A0367B /* Project object */;
+}
